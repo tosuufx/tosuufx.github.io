@@ -3,6 +3,7 @@
     <head>
         <link rel="stylesheet" href="index.css">
         <script src="main.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <title>Tosuu - Digital Work</title>
     </head>
 
@@ -10,11 +11,14 @@
 
         <div class="header" id="myHeader">
 
-            <a class="headerLink" href="#about">A propos</a>
-            <a class="headerLink" href="#motiondesign">Motion Design</a>
-            <a class="headerLink" href="#video">Vidéo</a>
-            <a class="headerLink" href="#graphisme">Graphisme</a>
+            <a class="headerLink" onclick="load(about);">A propos</a>
+            <a class="headerLink" href="#motiondesign" onclick="load(motionDesign);>Motion Design</a>
+            <a class="headerLink" href="#video" onclick="load(video);>Vidéo</a>
+            <a class="headerLink" href="#graphisme" onclick="load(photo);>Graphisme</a>
 
+        </div>
+
+        <div id="content">
 
         </div>
 
