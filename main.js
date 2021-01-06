@@ -17,24 +17,24 @@ function myFunction() {
 
 function photo() {
 
-    $('#content').load('photo.html');
+    document.getElementById("content").innerHTML='<object type="text/html" data="photo.html" ></object>';
 
 }
 
 function video() {
 
-    $('#content').load('video.html');
+    document.getElementById("content").innerHTML='<object type="text/html" data="video.html" ></object>';
 
 }
 
 function about() {
 
-    $('#content').load('about.html');
+    document.getElementById("content").innerHTML='<object type="text/html" data="about.html" ></object>';
 
 }
 
 function motionDesign {
 
-    $('#content').load('photo.html');
+    document.getElementById("content").innerHTML='<object type="text/html" data="motiondesign.html" ></object>';
 
 }
