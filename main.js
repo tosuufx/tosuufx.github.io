@@ -15,26 +15,26 @@ function myFunction() {
   }
 }
 
-function load(video) {
+function photo() {
 
-    $('#content').load("video.html");
-
-}
-
-function load(photo) {
-
-    $('#content').load("graphisme.html");
+    $('#content').load('photo.html');
 
 }
 
-function load(motionDesign) {
+function video() {
 
-    $('#content').load("motiondesign.html");
+    $('#content').load('video.html');
 
 }
 
-function load(about) {
+function about() {
 
-    $('#content').load("about.html");
+    $('#content').load('about.html');
+
+}
+
+function motionDesign {
+
+    $('#content').load('photo.html');
 
 }
