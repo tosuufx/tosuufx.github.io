@@ -33,7 +33,7 @@ function about() {
 
 }
 
-function motionDesign {
+function motionDesign() {
 
     document.getElementById("content").innerHTML='<object type="text/html" data="motiondesign.html" ></object>';
 
