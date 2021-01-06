@@ -14,3 +14,27 @@ function myFunction() {
     header.classList.remove("sticky");
   }
 }
+
+function load(video) {
+
+    $('#content').load("video.html");
+
+}
+
+function load(photo) {
+
+    $('#content').load("graphisme.html");
+
+}
+
+function load(motionDesign) {
+
+    $('#content').load("motiondesign.html");
+
+}
+
+function load(about) {
+
+    $('#content').load("about.html");
+
+}
