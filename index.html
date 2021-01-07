@@ -1,6 +1,12 @@
 <html>
 
     <head>
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+        <script defer src="https://use.fontawesome.com/releases/v5.6.3/js/all.js" integrity="sha384-EIHISlAOj4zgYieurP0SdoiBYfGJKkgWedPHH4jCzpCXLmzVsw1ouK59MuUtP4a1" crossorigin="anonymous"></script>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>untitled - Paint</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="index.css">
         <link rel="icon" href="favicon.png" type="image/png"/>
         <script src="main.js"></script>
@@ -10,18 +16,101 @@
 
     <body>
 
-        <div class="header" id="myHeader">
-
-            <a class="headerLink" onclick="about();">A propos</a>
-            <a class="headerLink" href="#motiondesign" onclick="motionDesign();">Motion Design</a>
-            <a class="headerLink" href="#video" onclick="video();">Vidéo</a>
-            <a class="headerLink" href="#graphisme" onclick="photo();">Graphisme</a>
-
+        <div class="grid">
+            <div class="upbar">
+              <a class="upbar-opt" href="#">File</a>
+              <a class="upbar-opt" href="#">Edit</a>
+              <a class="upbar-opt" href="#">View</a>
+              <a class="upbar-opt" href="#">Image</a>
+              <a class="upbar-opt" href="#">Colors</a>
+              <a class="upbar-opt" href="#">Help</a>
+            </div>
+            <div class="sidebar">
+              <div id="item1" class="item"> <img src="https://i.postimg.cc/N0XtfWcz/1.png" alt=""> </div>
+              <div id="item2" class="item"> <img src="https://i.postimg.cc/k4FdWKDN/2.png" alt=""> </div>
+              <div id="item3" class="item"> <img src="https://i.postimg.cc/prWMCrnw/3.png" alt=""> </div>
+              <div id="item4" class="item"> <img src="https://i.postimg.cc/HWzgxwqd/4.png" alt=""> </div>
+              <div id="item5" class="item"> <img src="https://i.postimg.cc/SRgFv46J/5.png" alt=""> </div>
+              <div id="item6" class="item"> <img src="https://i.postimg.cc/sgkF8wh9/6.png" alt=""> </div>
+              <div id="item7" class="item active"> <img src="https://i.postimg.cc/bNFf0zY5/7.png" alt=""> </div>
+              <div id="item8" class="item"> <img src="https://i.postimg.cc/ncLtQsx7/8.png" alt=""> </div>
+              <div id="item9" class="item"> <img src="https://i.postimg.cc/0yMRcLby/9.png" alt=""> </div>
+              <div id="item10" class="item"> <img src="https://i.postimg.cc/LsjdMLkd/10.png" alt=""> </div>
+              <div id="item11" class="item"> <img src="https://i.postimg.cc/Y975208v/11.png" alt=""> </div>
+              <div id="item12" class="item"> <img src="https://i.postimg.cc/xCPWXQFt/12.png" alt=""> </div>
+              <div id="item13" class="item"> <img src="https://i.postimg.cc/8cPxWY2D/13.png" alt=""> </div>
+              <div id="item14" class="item"> <img src="https://i.postimg.cc/J06vQq8X/14.png" alt=""> </div>
+              <div id="item15" class="item"> <img src="https://i.postimg.cc/ryQBc84p/15.png" alt=""> </div>
+              <div id="item16" class="item"> <img src="https://i.postimg.cc/GhtZmZPx/16.png" alt=""> </div>
+            </div>
+            <div class="canvas">
+              <div class="canvas-white">
+               
+                 <div class="gridFolders">
+          <div class="videoFolder">
+        
+            <img onclick="video();" class="folderIcon" src="https://telegram-stickers.github.io/public/stickers/windows-95/4.png"><br/>
+            <a class="label" onclick="video();">Vidéo</a>
+        
+          </div>
+          <div class="photoFolder">
+        
+            <img onclick="photo();" class="folderIcon" src="https://telegram-stickers.github.io/public/stickers/windows-95/4.png"><br/>
+            <a class="labelPhoto" onclick="photo();">Photo</a>
+        
+          </div>
+          <div class="motionDesignFolder">
+        
+            <img onclick="motionDesign();" class="folderIcon" src="https://telegram-stickers.github.io/public/stickers/windows-95/4.png"><br/>
+            <a class="labelMd" onclick="motionDesign();">Animation</a>
+        
+          </div>
         </div>
-
-        <div id="content">
-            
-        </div>
+                 
+               </div>
+            </div>
+            <div class="bottombar">
+              <div class="cont">
+                  <div class="selection">
+                    <div class="selected" style="background-color: black"></div>
+                    <div class="selected2" style="background-color: white"></div>
+                  </div>
+                  <div class="colors">
+                  <div class="wut colors--color1" style="background-color: rgba(0,0,0)"></div>
+                  <div class="wut colors--color2" style="background-color: rgb(125,125,125)"></div>
+                  <div class="wut colors--color3" style="background-color: rgb(120,0,0)"></div>
+                  <div class="wut colors--color4" style="background-color: rgb(120,120,0)"></div>
+                  <div class="wut colors--color5" style="background-color: rgb(0,120,0)"></div>
+                  <div class="wut colors--color6" style="background-color: rgb(0,0,120)"></div>
+                  <div class="wut colors--color7" style="background-color: rgb(120,0,120)"></div>
+                  <div class="wut colors--color8" style="background-color: rgb(120,120,60)"></div>
+                  <div class="wut colors--color9" style="background-color: rgb(0,120,60)"></div>
+                  <div class="wut colors--color10" style="background-color: rgb(0,60,120)"></div>
+                  <div class="wut colors--color11" style="background-color: rgb(0,60,60)"></div>
+                  <div class="wut colors--color12" style="background-color: rgb(60,120,120)"></div>
+                  <div class="wut colors--color13" style="background-color: rgb(60,60,120)"></div>
+                  <div class="wut colors--color14" style="background-color: rgb(120,60,30)"></div>
+                  <div class="wut colors--color15" style="background-color: rgb(255,255,255)"></div>
+                  <div class="wut colors--color16" style="background-color: rgb(190,190,190)"></div>
+                  <div class="wut colors--color17" style="background-color: rgb(255,0,0)"></div>
+                  <div class="wut colors--color18" style="background-color: rgb(255,255,0)"></div>
+                  <div class="wut colors--color19" style="background-color: rgb(0,255,0)"></div>
+                  <div class="wut colors--color20" style="background-color: rgb(0,0,255)"></div>
+                  <div class="wut colors--color21" style="background-color: rgb(255,0,255)"></div>
+                  <div class="wut colors--color22" style="background-color: rgb(255,255,120)"></div>
+                  <div class="wut colors--color23" style="background-color: rgb(0,255,120)"></div>
+                  <div class="wut colors--color24" style="background-color: rgb(0,120,255)"></div>
+                  <div class="wut colors--color25" style="background-color: rgb(0,120,120)"></div>
+                  <div class="wut colors--color26" style="background-color: rgb(120,255,255)"></div>
+                  <div class="wut colors--color27" style="background-color: rgb(120,120,255)"></div>
+                  <div class="wut colors--color28" style="background-color: rgb(255,120,60)"></div>
+                </div>
+              </div>
+            </div>
+             </div>
+          </div>
+        </body>
+        </html>
 
     </body>
 
